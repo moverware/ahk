@@ -1,5 +1,5 @@
 #SingleInstance Force
-#Include utils.ahk
+#Include %A_ScriptDir%/utils.ahk
 rMacro := new Toggleable(func("pressR"))
 return
 

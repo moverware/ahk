@@ -1,5 +1,5 @@
 #SingleInstance Force
-#Include utils.ahk
+#Include %A_ScriptDir%/utils.ahk
 eMacro := new Toggleable(func("pressE"))
 return
 

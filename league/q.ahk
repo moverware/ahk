@@ -1,5 +1,5 @@
 #SingleInstance Force
-#Include utils.ahk
+#Include %A_ScriptDir%/utils.ahk
 qMacro := new Toggleable(func("pressQ"))
 return
 
